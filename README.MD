@@ -3,7 +3,7 @@
 📍 *Universidad Tecnológica Nacional*  
 
 ## ✨ Estudiante  
-- **Nombre:** Luis Cisneros  
+- **Nombre:** Luis Cisnero
 - **Comisión:** M2025-11   
 
 ## 📂 Descripción del Repositorio  
