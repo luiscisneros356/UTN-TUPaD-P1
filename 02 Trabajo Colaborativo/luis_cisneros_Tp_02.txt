@@ -1,0 +1,55 @@
+¿Qué es GitHub?
+GitHub es una plataforma basada en la nube que permite alojar repositorios Git y colaborar en el desarrollo de software. Ofrece herramientas para control de versiones, gestión de proyectos, integración continua y más.
+¿Cómo crear un repositorio en GitHub?
+1. Inicia sesión en GitHub.
+2. Haz clic en el botón "+" en la esquina superior derecha y selecciona "New repository".
+3. Ingresa un nombre para el repositorio.
+4. Opcionalmente, añade una descripción y elige si será público o privado.
+5. Puedes inicializarlo con un README.md.
+6. Haz clic en "Create repository".
+¿Cómo crear una rama en Git?
+Ejecuta el siguiente comando en la terminal dentro del repositorio:
+git branch nombre-de-la-rama
+Para crear y cambiar a la nueva rama en un solo paso:
+git checkout -b nombre-de-la-rama
+¿Cómo cambiar a una rama en Git?
+Para cambiar de rama, usa:
+git checkout nombre-de-la-rama
+Desde Git 2.23+, puedes usar:
+git switch nombre-de-la-rama
+¿Cómo fusionar ramas en Git?
+1. Cambia a la rama en la que quieres fusionar los cambios:
+git checkout main # o la rama destino
+2. Fusiona la otra rama:
+git merge nombre-de-la-rama
+3. Si hay conflictos, resuélvelos manualmente y haz un commit.
+¿Cómo crear un commit en Git?
+1. Añade los cambios al área de preparación:
+git add .
+2. Crea el commit con un mensaje descriptivo:
+git commit -m "Mensaje del commit"
+¿Cómo enviar un commit a GitHub?
+Después de hacer un commit, envía los cambios al repositorio remoto con:
+git push origin nombre-de-la-rama
+Si es la primera vez que subes la rama, usa:
+git push --set-upstream origin nombre-de-la-rama
+¿Qué es un repositorio remoto?
+Es una versión de un repositorio alojada en un servidor (como GitHub, GitLab o Bitbucket) que permite colaboración y sincronización de cambios entre múltiples desarrolladores.
+¿Cómo agregar un repositorio remoto a Git?
+Ejecuta:
+git remote add origin URL_DEL_REPOSITORIO
+Para verificar que se agregó correctamente:
+git remote -v
+¿Cómo empujar cambios a un repositorio remoto?
+Para subir cambios al repositorio remoto:
+git push origin nombre-de-la-rama
+¿Cómo tirar de cambios de un repositorio remoto?
+Para descargar los últimos cambios de la rama remota:
+git pull origin nombre-de-la-rama
+¿Qué es un fork de repositorio?
+Un fork es una copia de un repositorio en tu cuenta de GitHub. Te permite hacer cambios sin afectar el repositorio original y, si deseas, puedes enviar esos cambios al repositorio original mediante un pull request.
+¿Cómo crear un fork de un repositorio?
+1. Ve al repositorio que deseas forkar en GitHub.
+2. Haz clic en el botón "Fork" en la parte superior derecha.
+3. Selecciona tu cuenta o una organización donde alojarlo.
+4. Espera a que se complete el proceso y listo, tendrás tu propio fork.
