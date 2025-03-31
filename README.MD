@@ -3,7 +3,11 @@
 📍 *Universidad Tecnológica Nacional*  
 
 ## ✨ Estudiante  
+<<<<<<< HEAD
 - **Nombre:** Luis Cisnero
+=======
+- **Nombre:** Luis Cisneross  
+>>>>>>> tp2
 - **Comisión:** M2025-11   
 
 ## 📂 Descripción del Repositorio  
