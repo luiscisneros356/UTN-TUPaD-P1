@@ -159,3 +159,5 @@ suma_a_b_c = numero_a + numero_b + numero_c
 promedio_a_b_c = round(suma_a_b_c/3, 2)
 
 print(f"El promedio de los números ingresados es {promedio_a_b_c}.")
+
+
