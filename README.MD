@@ -3,11 +3,8 @@
 📍 *Universidad Tecnológica Nacional*  
 
 ## ✨ Estudiante  
-<<<<<<< HEAD
-- **Nombre:** Luis Cisnero
-=======
-- **Nombre:** Luis Cisneross  
->>>>>>> tp2
+
+- **Nombre:** Luis Cisneros  
 - **Comisión:** M2025-11   
 
 ## 📂 Descripción del Repositorio  
@@ -18,7 +15,5 @@ Este repositorio almacena todas los trabajos prácticos realizados durante la cu
 - Los archivos de código fuente (`.py`) incluyen comentarios y estructura adecuada.  
 - Se busca mantener un código limpio, ordenado y bien documentado.  
 
-> ⚠️ **Nota:** Este README y los nombres de los archivos de los trabajos prácticos deben ser actualizados con tus datos personales.
-> 
-> ¡Recuerda mantener actualizado tu repositorio!
+
 
