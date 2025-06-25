@@ -127,7 +127,7 @@ class ListaEnlazada:
 
     def mostrar(self):
         actual = self.cabeza
-        while actual:  # Traverse the list, reversing the direction of the links one node at a time
+        while actual: 
             print(actual.dato, end=' --> ')
             actual = actual.siguiente
         print("None")
